@@ -5,6 +5,8 @@ SUMMARY = "Basic Wayland image with Weston"
 # let's make sure we have a good image..
 REQUIRED_DISTRO_FEATURES += "wayland"
 
+RM_WORK_EXCLUDE += "optee-os chromium-ozone-wayland_65"
+
 # FIXME Mali is currently added as a machine feature
 # meta-qcom is using a different approach with
 #   MACHINE_ESSENTIAL_EXTRA_RRECOMMENDS

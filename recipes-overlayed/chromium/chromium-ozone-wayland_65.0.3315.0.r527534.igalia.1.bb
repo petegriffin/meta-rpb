@@ -6,6 +6,7 @@ SRC_URI += " \
  file://0001-Rotate-gcc-toolchain-s-build-flags.patch \
  file://workaround-vcvt_f16_f32-is-not-declared-in-this-scope.patch \
  file://0001-GCC-fixes-avoid-symbol-collision-between-Element-Com.patch \
+ file://0001-Enable-v4l2-hw-decode.patch \
 "
 
 REQUIRED_DISTRO_FEATURES = "wayland"
